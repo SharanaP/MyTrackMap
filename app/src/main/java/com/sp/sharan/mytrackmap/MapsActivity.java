@@ -70,6 +70,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         latLngList = new ArrayList<LatLng>();
         if (mGoogleApiClient == null) {
+            //TODO check this line
             mGoogleApiClient = /*new GoogleApiClient.Builder(this)
                     .addConnectionCallbacks(this)
                     .addApi(LocationServices.API)
